@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>IT.</title>
+  <style>
+    /*Type selectors.*/
+    /*  h1{
+      color: aqua;
+    }
+
+      p{
+        font-weight: bold;
+      }*/
+    /*ID selectors.*/
+    /* #h1{
+       color: aqua;
+     }*/
+    /*Class selectors.*/
+    /* .masterClass {
+       color: aqua;
+     }*/
+    /*Universal select.*/
+    /* *{
+       background-color: hotpink;
+     }*/
+    /*Attribute selectors.*/
+    /* [class] {
+       color: aqua;
+     }*/
+    /*Value selectors.*/
+    /*[class="masterClass1"] {
+      color: aqua;
+    }*/
+    /*[href]{
+      color: orange;
+    }*/
+    /*  [href="https://ijse.lk"] {
+        color: orange;
+      }
+
+      [href="https://microsoft.com"] {
+        color: yellow;
+      }
+
+      [href="https://youtube.com"] {
+        color: red;
+      }
+
+      !*Starts with.*!
+      [href^="https"]:hover {
+        color: green;
+      }
+
+      !*Ends with.*!
+      [href$="org"] {
+        color: hotpink;
+      }*/
+    /*Contains.*/
+    /* [href*="guide"] {
+       color: aqua;
+     }*/
+    /* Catch all the links which contains the word "verify" (This should be a word.).*/
+    /*[href~="verify"] {
+      color: red;
+    }*/
+    /*Attribute selector with class selector.*/
+    /*.masterClass1[href~="verify"] {*/
+    /*  color: red;*/
+    /*}*/
+    /*/class selector/!**/
+    /*.masterClass1 {*/
+    /*  color: aqua;*/
+    /*}*!*/
+    /*And selector.*/
+    /*.masterClass1[href~="verify"] {
+      color: red;
+    }
+    */
+    /*Pseudo selectors.*/
+
+    /*Since h1 is an inline element the hover effect applies whenever the mouse is over the inline text.*/
+    /* h1:hover {
+       color: red;
+     }*/
+
+    /*Activates whenever the mouse is clicked on the element.*/
+    /*  h1:active{
+        color: yellow;
+      }
+
+      a:visited{
+        color: aqua;
+      }
+     */
+    /*a:link{
+      color: orange;
+    }
+    a:visited {
+      color: aqua;
+    }*/
+    /*Whenever an element is focused on the page.*/
+    /*:focus{*/
+    /*  background-color: red;*/
+    /*}*/
+    /*Whenever an input is focused on the page.*/
+    /*input:focus{
+      background-color: red;
+    }*/
+    /* Accessing children.AKA tree structure targeting. */
+    /* h1:first-child:hover{
+       color: aqua;
+     }
+     h1:last-child{
+       color: red;
+     }
+     h1:nth-child(2){
+       color: yellow;
+     } Not applicable works only for lists items.
+     !*Hover,active ,visited attributes are status selectors.*!*/
+    /*li:first-child{
+      color: hotpink;
+    }
+    li:nth-child(2){
+      color: yellow;
+    }
+    li:nth-child(3){
+      color: red;
+    }
+    li:nth-child(4){
+      color: aqua;
+    }
+    li:nth-child(5){
+      color: green;
+    }
+    li:nth-child(6){
+      color: blue;
+    }
+    li:nth-child(7){
+      color: purple;
+    }
+    li:nth-child(8){
+      color: brown;
+    }
+    li:nth-child(9){
+      color: black;
+    }
+    !*Before the last list item.*!
+    li:nth-last-child(2){
+      color: orange;
+    }
+*/
+    /*Only child.*/
+    /*   li:only-child{
+         color: aqua;
+       }*/
+    /*Pseudo element selectors.*/
+    /*Before the h1 element.*/
+    /*h1::before{*/
+    /*  content:"💻 : ";*/
+    /*}*/
+    /*!*After the h1 element.*!*/
+    /*h1::after{*/
+    /*  content:"🎊";*/
+    /*}*/
+    /*!*First letter of the paragraphs.*!*/
+    /*p::first-letter{*/
+    /*  font-size: 100px;*/
+    /*  color:yellow;*/
+    /*}*/
+    /*[name="username"]::placeholder{*/
+    /*  color: deeppink;*/
+    /*}*/
+
+    /*::file-selector-button{*/
+    /*  background-color: greenyellow;*/
+    /*  cursor: pointer;*/
+    /*}*/
+    /*  ::marker{*/
+    /*    content: "🎁";*/
+    /*  }*/
+    /*gup selector*/
+  </style>
+</head>
+<body>
+<h1 class="masterClass1" id="h1">WELCOME TO MODULE.</h1>
+<p class="masterClass1">odit officia similique, sit voluptas! Accusantium expedita molestiae recusandae velit voluptates. Adipisci consequatur
+  distinctio esse iste libero maxime minima officia quis! Autem deserunt doloremque enim fugit illum in incidunt ipsa
+  iure nulla numquam obcaecati praesentium soluta, voluptas? Aliquam, dolor eos iste labore nam nisi vero? Accusamus,
+  accusantium alias architecto asperiores aut autem beatae corporis distinctio dolorem dolorum error excepturi fuga dit omnis
+  qui repellat reprehenderit sequi vitae voluptatem.</p><br>
+<a class="masterClass1"href="https://ijse.lk/guide/ verify">Visit IJSE.</a><br><br>
+<a href="https://microsoft.com/guide">Visit Microsoft.</a><br><br>
+<a href="https://youtube.com/guide">Visit Youtube.</a><br><br>
+<a href="https://hibernate.org/module">Visit Hibernate.</a><br><br>
+<h1 class="masterClass">WELCOME TO MODULE.</h1><br>
+<ol>
+  <li>Item 1.</li>
+  <li>Item 2.</li>
+  <li>Item 3.</li>
+  <li>Item 4.</li>
+  <li>Item 5.</li>
+  <li>Item 6.</li>
+  <li>Item 7.</li>
+  <li>Item 8.</li>
+  <li>Item 9.</li>
+  <li>Item 10.</li>
+</ol><br>
+
+<ul>
+  <li>Item 1.</li>
+</ul>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi corporis cum cupiditate ducimus id
+  incidunt maiores numquam odio perferendis quae quia quidem quisquam, recusandae rem repellendus repudiandae unde
+  eaque iste iure minima nobis, nostrum officiis quidem sunt suscipit tempora ullam voluptate? Cum
+ s? Accusantium architecto asperiores commodi dignissimos
+  excepturi magni odit ratione tenetur veniam voluptates! Cum dicta esse iste!</p>
+<h1 class="masterClass">WELCOME TO MODULE.</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dolorem et iure, nisi sed vero? A cum eos
+  esse facilis illo illum, itaque minima porro quia quo rem sint ullam velit vitae voluptatem. Aut consequatur dolore
+  doloremque error fugit nemo non quaerat, saepe. A ab accusamus aut cum dignissimos dolorem error eum, hic ipsam minima
+ temporibus. Fugit odit omnis vero. Blanditiis
+  dolore iusto possimus reiciendis repellendus repudiandae, tenetur! Earum.</p><br><br>
+
+<input class="g1" id="username" name="username" placeholder="Enter your username." type="text">
+<br><br>
+<input id="password" name="password" placeholder="Enter your password." type="password">
+<br><br>
+<input id="file" name="file" type="file">
+<br><br>
+<input id="submit" name="submit"type="submit">
+<br><br>
+</body>
+</html>
