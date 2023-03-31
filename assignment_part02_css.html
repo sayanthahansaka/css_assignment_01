@@ -2,9 +2,155 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>assignment_part02_css</title>
+<!--  <link rel="Screenshot" href="assets/img/Screenshot (118).png">-->
+  <style>
+    header{
+      background: white;
+      border: 1px solid black;
+      box-shadow: 3px 2px 9px 2px black;
+      position: absolute;
+      width: 100%;
+      height: 69px;
+      top: 0;
+    }
+    header>img{
+      width: 190px;
+      position: relative;
+      top: 20px;
+      left: 10px;
+    }
+    header>nav{
+      position: absolute;
+      right: 40px;
+      top: 0;
+    }
+    header>nav>ul>li{
+      display: inline-block;
+      cursor: pointer;
+      padding: 10px;
+    }
+    main{
+      position: relative;
+      margin-top: 70px;
+    }
+    main>nav{
+      position: absolute;
+      background: rebeccapurple;
+      top: 0;
+      bottom: 0;
+      width: 250px;
+    }
+    main>nav>ul>li{
+      color: white;
+      list-style: none;
+      padding-top: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    main>section{
+      margin-left: 255px;
+      padding: 10px;
+    }
+    footer{
+      height: 40px;
+      background: dimgray;
+    }
+    footer>h3{
+      text-align: center;
+      margin-top: 0;
+      padding-top: 10px;
+    }
+    main>section>section:first-child{
+      border: 1px solid darkgreen;
+      height: 200px;
+      position: relative;
+    }
+    main>section>section:first-child>div{
+      border: 1px solid darkgreen;
+      height: 100%;
+      width: calc(100%/3);
+      position: absolute;
+    }
+    main>section>section:first-child>div:nth-child(1){
+      background: url("assets/img/Screenshot (118).png");
+      left: 0;
+    }
+    main>section>section:first-child>div:nth-child(2){
+      background: url("assets/img/Screenshot (118).png");
+      left: calc(100%/3);
+    }
+    main>section>section:first-child>div:nth-child(3){
+      background: url("assets/img/Screenshot (118).png");
+      right: 0;
+    }
+  </style>
 </head>
 <body>
-$END$
+<header>
+  <img src="assets/img/Screenshot (120).png" alt="logo">
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Services</li>
+      <li>Contact</li>
+      <li>About Us</li>
+    </ul>
+  </nav>
+
+</header>
+
+<main>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Services</li>
+      <li>Contact</li>
+      <li>About Us</li>
+    </ul>
+  </nav>
+
+  <section>
+    <section>
+
+      <div></div>
+      <div></div>
+      <div></div>
+
+    </section>
+    <section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores at autem, debitis ducimus excepturi
+        facilis fugiat iure nisi ullam voluptatem. Aliquid consequuntur dolorum inventore itaque, nostrum porro quia
+        quisquam vero.</p>
+      <p>Error itaque labore nemo obcaecati, perferendis reprehenderit voluptates? At atque culpa cupiditate deserunt
+        dicta dolorem, dolorum eligendi eos et minima molestias, nemo nobis nulla quae quibusdam, repellat similique
+        tenetur velit?</p>
+      <p>Animi ducimus eaque est eum exercitationem facere fuga harum hic ipsum libero magni maiores minus non, placeat
+        repudiandae similique veniam voluptate voluptatum. Cum doloremque molestias nesciunt quaerat reiciendis soluta
+        ullam!</p><p>Error itaque labore nemo obcaecati, perferendis reprehenderit voluptates? At atque culpa cupiditate deserunt
+        dicta dolorem, dolorum eligendi eos et minima molestias, nemo nobis nulla quae quibusdam, repellat similique
+        tenetur velit?</p>
+      <p>Commodi earum fuga ipsa, molestiae quaerat unde. A aspernatur cumque delectus ducimus eveniet in ipsum laborum
+        molestiae nulla, obcaecati praesentium provident quis ratione repellendus sed. Beatae consectetur facere itaque
+        saepe!</p>
+      <p>Ab adipisci aliquid animi aspernatur commodi consectetur delectus deserunt dignissimos dolor enim explicabo
+        inventore, ipsa ipsum magnam, nisi odio odit porro quo, sunt suscipit tempore temporibus veritatis! Enim,
+        quibusdam saepe!</p>
+      <p>Cum debitis exercitationem magnam quo. Accusamus aliquam amet aperiam delectus doloremque earum, eos, fuga
+        ipsum iste laborum provident reprehenderit suscipit voluptatem voluptatibus voluptatum. Animi assumenda expedita
+        id illum maxime porro!</p>
+      <p>Alias aut ex excepturi maxime nemo nisi odio sunt totam, veritatis voluptates. Aliquam consequuntur culpa
+        deserunt dolor dolorum eaque, error eum iste nulla optio perspiciatis qui recusandae repudiandae veniam
+        voluptates.</p>
+      <p>Dolorem ducimus eaque earum enim fugiat, fugit harum illo impedit ipsum libero nam non nulla obcaecati odit
+        quam, quis rem sequi, tempore totam velit! Maxime nemo omnis praesentium ratione ut.</p>
+    </section>
+  </section>
+
+</main>
+
+<footer>
+  <h3>Developed By IJSE</h3>
+</footer>
 </body>
 </html>
